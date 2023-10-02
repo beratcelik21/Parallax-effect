@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@900&family=Lato:ital,wght@0,100;0,900;1,700&family=Lobster&family=Roboto:wght@100&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@900&family=Lato:ital,wght@0,100;0,400;0,900;1,700&family=Lobster&family=Roboto:wght@100&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+.section {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+#section1 {
+  display: flex;
+  position: relative;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.458),
+      rgba(84, 83, 83, 0.458)
+    ),
+    url(./img/bg.jpg);
+}
+#section2 {
+  display: flex;
+  position: relative;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.458),
+      rgba(84, 83, 83, 0.458)
+    ),
+    url(./img/bg1.jpg);
+}
+#section3 {
+  display: flex;
+  position: relative;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.458),
+      rgba(84, 83, 83, 0.458)
+    ),
+    url(./img/bg2.jpg);
+}
+#section4 {
+  display: flex;
+  position: relative;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.458),
+      rgba(84, 83, 83, 0.458)
+    ),
+    url(./img/bg3.jpg);
+}
+#section5 {
+  display: flex;
+  position: relative;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.458),
+      hsla(0, 1%, 33%, 0.458)
+    ),
+    url(./img/bg4.jpg);
+}
+h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 100px ;
+  color: white;
+  font-weight: 900;
+}
+.clarusway {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #4c4c4c;
+  font-size: 50px;
+
+  height: auto;
+  letter-spacing: 20px;
+  padding: 15px;
+  border-top-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+  outline: 8px inset rgb(212, 1, 212);
+  outline-offset: 16px;
+}
+.paragraf {
+  padding: 40px;
+  width: 200vh;
+  height: 30vh;
+  margin: auto;
+  line-height: 32px;
+  font-family: "lato",sans-serif;
+  font-size: 16px;
+  color: black;
+  font-weight: 400;
+  /* justify-content: center; */
+  /* align-items: center; */
+  text-align: justify;
+}
+h2 {
+  text-align: center;
+}
+span{font-family: "lato",sans-serif;
+  font-size: 16px;
+  color: black;
+  font-weight: 700;
+
+}
+.logo{
+  margin: auto;
+
+
+}
+#logo{
+  width: 500px;
+  height: 110px;
+  margin: auto;
+}
+.aws{
+  padding: 40px;
+  width: auto;
+  height: 20vh;
+  margin: auto;
+  line-height: 32px;
+  font-family: "lato",sans-serif;
+  font-size: 16px;
+  color: black;
+  font-weight: 400;
+  /* justify-content: center; */
+  /* align-items: center; */
+  text-align: justify;
+  background-color: #282E34;
+  color: white;
+}
+.paragraf2{
+  padding: 40px;
+  width: 200vh;
+  height: 30vh;
+  margin: auto;
+  line-height: 32px;
+  text-align: center;
+}
+.baslık{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #4c4c4c;
+  font-size: 30px;
+  height: auto;
+  letter-spacing: 10px;
+  padding: 15px;
+  border-top-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+  outline: 8px inset rgb(212, 1, 212);
+  outline-offset: 16px;
+}
+ h1{
+  font-family: "Lato", sans-serif;
+  font-size: 60px ;
+  color: white;
+  font-weight: 400;
+}
+.paragraf3{
+  padding: 40px;
+  width: 200vh;
+  height: 30vh;
+  margin: auto;
+  line-height: 32px;
+  text-align: center;
+}
+.team{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #4c4c4c;
+  font-size: 50px;
+
+  height: auto;
+  letter-spacing: 20px;
+  padding: 15px;
+  border-top-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+  outline: 8px inset rgb(212, 1, 212);
+  outline-offset: 16px;
+}
+.pbaslık{
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+}
